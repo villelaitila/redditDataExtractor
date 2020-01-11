@@ -25,7 +25,7 @@ from PyQt4.QtTest import QTest
 from PyQt4.QtCore import Qt
 
 from RedditDataExtractor.redditDataExtractor import RedditDataExtractor
-from RedditDataExtractor.GUI import redditDataExtractorGUI
+from RedditDataExtractor.GUI import ErrorWithImport
 from RedditDataExtractor.GUI.settingsGUI import SettingsGUI
 from RedditDataExtractor.GUI.genericListModelObjects import GenericListModelObj
 from main import QueueMessageReceiver
